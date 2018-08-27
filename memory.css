@@ -1,0 +1,44 @@
+body{
+	display:flex;
+	align-items:center;
+	justify-content: center;
+
+}
+.plansza{
+	position:relative;
+	border: 2px solid red;
+	width:560px;
+	height:450px;
+	margin:5px auto;
+}
+.kafelek{
+	position: absolute;
+	width:100px;
+	height: 100px;
+	margin: 5px;
+	background-image: url(obr.png);
+}
+.k{
+	float:left;
+}
+.kk{
+	clear:both;
+}
+.kafelek:hover{
+	background-image: url(obr.png);
+}
+.game_score{
+	text-align: center;
+	width:100px;
+	height: 100px;
+
+}
+button.button,
+input[type=button].button,
+input[type=submit].button {
+ 
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+    font-size: 20px;
+}
